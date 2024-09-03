@@ -4,11 +4,23 @@ Este proyecto fue creado con [Create React App](https://github.com/facebook/crea
 
 ## Lógica de la aplicación
 
-Se encuentra en el archivo Python /backend/diagnostic-system.py que expone la API en http://localhost:5000/evaluate que consulta el front
+Se encuentra en el archivo Python 
 
-Las reglas del archivo CLIPS se encuentran en /backend/diagnostico.clp
+`/backend/diagnostic-system.py`
 
-## Comandos para la interfaz gráfica
+que expone un API en http://localhost:5000/evaluate que consulta el front.
+
+Las reglas del archivo CLIPS se encuentran en
+
+`/backend/diagnostico.clp`
+
+Para correr el api el archivo Python:
+
+`python diagnostic-system.py`
+
+## Interfaz gráfica
+
+Requisito: Instalar NodeJS
 
 Para instalar las dependencias: 
 
@@ -18,5 +30,4 @@ Para ejecutar el front:
 
 ### `npm start`
 
-Ejecuta la web en modo desarrollo.\
 Abre [http://localhost:3000](http://localhost:3000) para verlo en tu navegador.
