@@ -211,7 +211,7 @@ const FormularioDiagnostico = () => {
     
             {diagnostico && (
                 <div className="mt-6 p-4 bg-green-100 text-green-700 rounded-md">
-                    Diagnóstico: <strong>{diagnostico}</strong>
+                    Posible Diagnóstico: <strong>{diagnostico}</strong>
                 </div>
             )}
     
