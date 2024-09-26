@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import SintomaCheckbox from './SintomaCheckbox';
+import OptimizarSintomas from './OptimizarSintomas';
 
 const FormularioDiagnostico = () => {
     const [sintomas, setSintomas] = useState({
@@ -207,6 +208,7 @@ const FormularioDiagnostico = () => {
                 >
                     Generar Diagnóstico
                 </button>
+                <OptimizarSintomas />
             </form>
     
             {diagnostico && (
